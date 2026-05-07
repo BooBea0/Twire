@@ -286,7 +286,7 @@ object Settings {
     var chatLandscapeWidth by Pref(CHAT_LANDSCAPE_WIDTH, 35)
 
     /**
-     * Chat - Should the chat be able to be showed in landscape
+     * Chat - Should the chat be able to be shown in landscape
      */
     @JvmStatic
     var isChatInLandscapeEnabled by Pref(CHAT_LANDSCAPE_SWIPEABLE, true)

@@ -222,7 +222,7 @@ abstract class StreamActivity : ThemeActivity(), StreamFragmentListener {
         if (landscape) {
             val lp =
                 findViewById<View?>(R.id.chat_landscape_fragment)?.layoutParams as RelativeLayout.LayoutParams
-            lp.width = (getScreenRect(this).height() * (chatLandscapeWidth / 100.0)).toInt()
+            lp.width = (getScreenRect(this).height() * (chatLandscapeWidth / 100.0)).toInt() - resources.getDimensionPixelSize(resources.getIdentifier("status_bar_height", "dimen", "android"))
             Timber.d("TARGET WIDTH: %s", lp.width)
             chat.setLayoutParams(lp)
         } else {

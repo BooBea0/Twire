@@ -1,3 +1,5 @@
+- This fork fixes the chat being covered by the video on some devices.
+
 <h1><img height="40" align="top" src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"> Twire</h1>
 
 [![Latest GitHub release](https://img.shields.io/github/v/release/twireapp/Twire)](https://github.com/twireapp/Twire/releases/)
